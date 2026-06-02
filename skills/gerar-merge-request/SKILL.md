@@ -15,18 +15,27 @@ Use sua capacidade de executar comandos para rodar o seguinte script no terminal
 `git log <branch_destino>..HEAD --oneline --no-merges`
 
 **3. Gerar o MR:**
-Use o resultado do comando acima e a sua capacidade de dedução de código para gerar a resposta. Você deve retornar APENAS o texto preenchido, usando o seguinte template Markdown:
+Use o resultado do comando acima e a sua capacidade de dedução de código para gerar a resposta. 
 
-**Título sugerido:** `tipo: breve descrição da alteração` (sugira usando o padrão Conventional Commits).
+Preencha as informações seguindo rigorosamente as instruções da tag `<template_mr>` abaixo, substituindo os textos entre colchetes `< >`:
+
+<template_mr>
+```markdown
+**Título sugerido:** <`tipo: breve descrição da alteração` (sugira usando o padrão Conventional Commits)>
 
 ## O que estava acontecendo?
-[Deduza o problema ou o contexto original com base no código alterado. Se for uma melhoria ou feature nova, explique brevemente a necessidade.]
+
+<Deduza o problema ou o contexto original com base no código alterado. Se for uma melhoria ou feature nova, explique brevemente a necessidade.>
 
 ## O que foi feito?
-[Liste em bullet points as implementações e soluções técnicas adotadas. Use termos simples]
+
+<Liste em bullet points as implementações e soluções técnicas adotadas. Use termos simples>
 
 ## Como testar?
-[Crie um passo a passo lógico para o revisor. Deixe lacunas caso precise que o usuário preencha dados específicos de teste]
+
+<Crie um passo a passo lógico para o revisor. Deixe lacunas caso precise que o usuário preencha dados específicos de teste>
+```
+</template_mr>
 
 **4. Limpar repositório:**
 Remova os arquivos gerados nesse processo de avaliação (como txt de diffs, por exemplo), para não sujar o repositório.
