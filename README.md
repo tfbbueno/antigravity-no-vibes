@@ -10,7 +10,7 @@ Para que o Antigravity reconheça essas automações localmente, os diretórios 
 
 **Caminho padrão no Windows:**
 ```bash
-C:\Users\<SeuUsuario>\.gemini\antigravity\skills\
+C:\Users\<SeuUsuario>\.gemini\config\skills\
 
 ```
 
