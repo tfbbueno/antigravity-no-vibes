@@ -51,6 +51,11 @@ Sua resposta deve ser formatada em Markdown, contendo EXATAMENTE as seções aba
 * **Sugestão de correção:** (Bloco de código ANTES e DEPOIS).
 * **Essa é uma melhoria fora de escopo?:** (Informar se deve fazer essa melhoria de imediato ou não).
 
+### Testes automatizados
+[Se houver testes: faça uma análise crítica sobre a qualidade e a cobertura, garantindo que estejam passando.]
+
+[Se não houver testes:  aja como um instrutor: avalie a testabilidade do código. Se o código estiver acoplado ou difícil de testar, sugira as refatorações necessárias. Por fim, explique de forma didática quais cenários e tipos de testes (unitários, de integração, etc.) deveriam ser criados especificamente para o código analisado.]
+
 ### Avaliação dos Commits
 [Analise as mensagens de commit coletadas feitas no diff. Forneça feedback didático se os commits carecem de clareza, se estão muito genéricos (ex: "ajustes", "commit final") ou se não seguem padrões semânticos. Dê exemplos de como a mensagem poderia ser reescrita para gerar um histórico legível.]
 
@@ -65,4 +70,4 @@ Se houver itens não commitados, sugira o texto do commit usando Conventional Co
 [Identifique lógicas inteligentes, bons nomes escolhidos de forma clara, bons commits, bom uso de recursos da linguagem ou modularização correta. Explique *por que* aquelas escolhas são exemplos de um código de alta qualidade.]
 
 **6. Limpar repositório:**
-Remova todos os arquivos gerados nesse processo de avaliação (como txt de diffs, commits ou logs), para não sujar o repositório da usuária.
+[Remova todos os arquivos gerados nesse processo de avaliação (como txt de diffs, commits ou logs), para não sujar o repositório da usuária.]
